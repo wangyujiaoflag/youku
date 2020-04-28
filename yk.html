@@ -1,0 +1,3010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="Access-Control-Allow-Origin" content="*" /> -->
+    <title>优酷首页</title>
+    <link rel="stylesheet" href="./css/yk.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+<body>
+    <!-- 导航部分 -->
+    <div id="content">
+    <div id="nav">
+        <nav>
+            <div class="nav_left">
+                <a href=""><img src="./img/logo.png" alt=""></a>
+                <div class="sort">
+                    <ul>
+                        <li><a href="">剧集</a></li>
+                        <li><a href="">电影</a></li>
+                        <li><a href="">综艺</a></li>
+                            <li class="sys_nav_item"><a><span class="sys_nav">导航</span><i class="trs iconfont icon-arrow"></i></a>
+                                <ul>
+                                    <li>
+                                       <div class="itemnav">
+                                        <a href="">剧集</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                       </div>
+                                       <div class="itemnav">
+                                        <a href="">剧集</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="itemnav">
+                                        <a href="">剧集</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                        <a href="">剧集</a>
+                                       </div>
+                                       <div class="itemnav">
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                       </div>
+                                    </li>
+                                    <li>
+                                       <div class="itemnav">
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                        <a href="">剧集</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                       </div>
+                                       <div class="itemnav">
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                        <a href="">剧集</a>
+                                        <a href="">综艺</a>
+                                        <a href="">少儿</a>
+                                       </div>
+                                    </li>
+                                    <li>
+                                        <a href=""> 
+                                                <img src="./img/vipselect.png" alt="">
+                                            </a> 
+                                    </li>
+                                </ul>
+                                <span class="sanjiao"></span>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav_middle">
+                <div class="search">
+                    <div class="search-input">
+                        <input type="text" placeholder="tv电视" class="gotosearch"><span><em class="iconfont icon-huo"></em>热搜榜</span>
+                    </div>
+                    <div class="search-title"><em class="iconfont icon-fangdajing-"></em>全网搜</div>
+                </div>
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li><a href="">
+                            <div class="notchange">
+                                <i class="iconfont icon-changyongtubiao-xianxingdaochu-zhuanqu--copy icon_color"></i>
+                                <span class="icon_color">开通会员</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <div>
+                                <i class="iconfont icon-shijianlishijilujishizhongbiaoxianxing"></i>
+                                <span>看过</span> 
+                            <div class="navcont">
+                                <span class="sanjiao"></span>
+                            </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div><i class="iconfont icon-guanzhu"></i><span>收藏</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div><i class="iconfont icon-upload"></i><span>上传</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <i class="iconfont icon-dianshiju-weixuanzhong-"></i>
+                                <span>客户端</span>
+                            <!-- 下拉菜单 -->
+                            <div class="navcont">
+                                <ul>
+                                    <li>
+                                       <i class="iconfont icon-HD"></i><span>1080P限免</span>
+                                    </li>
+                                    <li>
+                                       <i class="iconfont icon-HD"></i><span>1080P限免</span>
+                                    </li>
+                                    <li>
+                                       <i class="iconfont icon-HD"></i><span>1080P限免</span>
+                                    </li>
+                                    <li>
+                                       <i class="iconfont icon-HD"></i><span>1080P限免</span>
+                                    </li>
+                                </ul>
+                                <span class="sanjiao"></span>
+                            </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="touxiang">
+                        <img src="./img/logo.png" alt="">
+                        <span class="state">未登录</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <div class="content">
+            <div class="circle">
+            </div>
+        </div>
+    </div>
+    <!-- 正在热播 -->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+                    <!-- 标题盒子 -->
+                    <div class="title">
+                        <div class="h3"><span>正在热播</span></div>
+                        <div class="title-middle">
+                            <a>战“疫”MV《爱佑华夏》</a>
+                            <a>「“疫”起捉谣」一起，粉碎谣言！</a>
+                            <a>英雄 就是平凡人的挺身而出</a>
+                        </div>
+                        <div class="title-right toblue">
+                            <div class="change"><i class="iconfont icon-iconfront-"></i>换一换</div>
+                        </div>
+                    </div>
+                    <!-- 需要用来移动的盒子 流式均匀布局-->
+                    <div class="ykmove">
+                        <!-- 单个内容 -->
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 需要用来移动的盒子 流式均匀布局-->
+                    <div class="ykmove">
+                        <!-- 单个内容 -->
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/juji.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/juji.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/juji.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/juji.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/juji.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                                <!-- 类型 -->
+                                <strong class="pinkcolor">直播</strong>
+
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                                <p>今天 04:25</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 需要用来移动的盒子 流式均匀布局-->
+                    <div class="ykmove"">
+            <!-- 单个内容 -->
+            <div class=" yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                    <div class="yk_single_item">
+                        <!-- 图片 -->
+                        <div class="itemImg">
+                            <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                            <!-- 时长 -->
+                            <span class="time">02:33</span>
+                            <!-- 类型 -->
+                            <strong class="pinkcolor">直播</strong>
+
+                        </div>
+                        <!-- 电影主题 -->
+                        <div class="itemTheme">
+                            <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                            <p>今天 04:25</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- 体育 -->
+    <div id="item-6">
+        <div class="item-6">
+            <div class="title">
+                <div class="h3"><i class="iconfont icon-zhuangtaichahua-"
+                        style="color: orangered"></i><span>体育</span><strong>更多></strong></div>
+                <div class="title-middle">
+
+                    <span class="select skyblue">最新</span><span class="select">大港剧</span><span
+                        class="select">港台剧</span><span class="select">日韩剧</span>
+                    <span class="select">最新</span class="select"><span class="select">大港剧</span><span
+                        class="select">港台剧</span><span class="select">日韩剧</span>
+                </div>
+                <div class="title-right toblue">赛事大厅
+                </div>
+            </div>
+            <div class="juji">
+                <div class="jbig-img">
+                    <div class="img-top">
+                        <a href=""><img src="./img/juji.gif" alt=""></a>
+                    </div>
+                    <div class="img-content">
+                        <h4>冰雪奇缘2 唯美世界</h4>
+                        <p>艾莎安娜探秘魔法王国</p>
+                    </div>
+                </div>
+                <div class="ykitem ykjuchang">
+                    <div class="ykmove">
+                        <!-- 一个系列 -->
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="juji">
+                <div class="jbig-img">
+                    <div class="img-top">
+                        <a href=""><img src="./img/juji.gif" alt=""></a>
+                    </div>
+                    <div class="img-content">
+                        <h4>冰雪奇缘2 唯美世界</h4>
+                        <p>艾莎安娜探秘魔法王国</p>
+                    </div>
+                </div>
+                <div class="ykitem ykjuchang">
+                    <div class="ykmove">
+                        <!-- 一个系列 -->
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="juji">
+                <div class="jbig-img">
+                    <div class="img-top">
+                        <a href=""><img src="./img/juji.gif" alt=""></a>
+                    </div>
+                    <div class="img-content">
+                        <h4>冰雪奇缘2 唯美世界</h4>
+                        <p>艾莎安娜探秘魔法王国</p>
+                    </div>
+                </div>
+                <div class="ykitem ykjuchang">
+                    <div class="ykmove">
+                        <!-- 一个系列 -->
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="yk_single_item">
+                            <!-- 图片 -->
+                            <div class="itemImg">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                <!-- 时长 -->
+                                <span class="time">02:33</span>
+                            </div>
+                            <!-- 电影主题 -->
+                            <div class="itemTheme">
+                                <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 广告系列 -->
+    <div id="ad">
+        <div class="ad"> <a href=""><img src="./img/ad1.jpg" alt=""></a>
+        </div>
+    </div>
+    <!-- 剧集系列  与item-6有一点点区别 -->
+    <div id="item-6">
+        <div class="item-6">
+            <div class="title">
+                <div class="h3"><i class="iconfont icon-lianxuju1"
+                        style="color: yellowgreen"></i><span>剧集</span><strong>更多></strong></div>
+                <div class="title-middle">
+                    <span class="select skyblue">最新</span><span class="select">大港剧</span><span
+                        class="select">港台剧</span><span class="select">日韩剧</span>
+                    <span class="select">最新</span class="select"><span class="select">大港剧</span><span
+                        class="select">港台剧</span><span class="select">日韩剧</span>
+                </div>
+                <div class="title-right">
+                    <div>
+                        <!-- 左右按钮 -->
+                        <div class="lybtn btn toblue">
+                            <</div> <div class="rybtn btn toblue">></div>
+                   </div>
+                </div>
+                </div>
+                <div class="juji">
+                    <div class="jbig-img">
+                        <div class="img-top">
+                            <a href=""><img src="./img/juji.gif" alt=""></a>
+                        </div>
+                        <div class="img-content">
+                            <h4>冰雪奇缘2 唯美世界</h4>
+                            <p>艾莎安娜探秘魔法王国</p>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <!-- 一个系列 -->
+                       <div class="imgmove">
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                        <div class="singleitem">
+                            <div class="img-top">
+                                <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                            </div>
+                            <div class="img-content">
+                                <h4>冰雪奇缘2 唯美世界</h4>
+                                <p>艾莎安娜探秘魔法王国</p>
+                            </div>
+                        </div>
+                       </div>
+                       
+                    </div>
+                </div>
+            </div></div>
+    </div>
+    <!-- 直播精选系列 中间按钮、更多、圆span -->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><span>直播精选</span></div>
+                <div class="title-middle">
+                    <span class="select skyblue">最热直播</span>
+                    <span class="select">跟着节奏一起嗨</span>
+                    <span class="select">主播陪看</span>
+                </div>
+                <div class="title-right toblue">
+                    精彩直播不间断
+                </div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/juji.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/juji.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/juji.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/juji.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/juji.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">直播</strong>
+
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove"">
+                <!-- 单个内容 -->
+                <div class=" yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+            <div class="yk_single_item">
+                <!-- 图片 -->
+                <div class="itemImg">
+                    <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                    <!-- 时长 -->
+                    <span class="time">02:33</span>
+                    <!-- 类型 -->
+                    <strong class="pinkcolor">直播</strong>
+
+                </div>
+                <!-- 电影主题 -->
+                <div class="itemTheme">
+                    <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                    <p>今天 04:25</p>
+                </div>
+            </div>
+        </div>
+        <!-- 左右按钮 -->
+        <div class="lbtn btn" style="display: none;">
+            <</div> <div class="rbtn btn" style="display: block;">>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- 游戏 只有标题-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><span>游戏</span></div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 汽车 icon 更多 圆span-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><i class="iconfont icon-diqiu"></i><span> 汽车</span> <strong>更多></strong></div>
+                <div class="title-middle">
+                    <span class="select skyblue">主播陪看</span>
+                </div>
+
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 教育公益 标题以*间隔 圆span-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><span>教育</span> * <span>公益</span></div>
+                <div class="title-middle">
+                    <span class="select">最热直播</span>
+                </div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 旅游 亲子 标题以*间隔 圆span icon 更多-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><i class="iconfont icon-diqiu"></i> <span>旅游</span><strong>更多></strong></div>
+                <div class="title-middle">
+                    <div class="h3"> * <span>亲子</span></div>
+                    <span class="select skyblue">主播陪看</span>
+                </div>
+
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/zhibo.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 大鱼号精选 右上箭头切换两列-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><span>大鱼号精选</span></div>
+                <div class="title-right">
+                    <div>
+                        <!-- 左右按钮 -->
+                        <div class="lybtn btn toblue">
+                            <</div> <div class="rybtn btn toblue">></div>
+                   </div>
+                </div>
+            </div>
+        <!-- 需要用来移动的盒子 流式均匀布局-->
+        <div class=" ykmove">
+                                <!-- 单个内容 -->
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                                <div class="yk_single_item">
+                                    <!-- 图片 -->
+                                    <div class="itemImg">
+                                        <a href=""><img src="./img/rebo2.jpg" alt=""></a>
+                                        <!-- 时长 -->
+                                        <span class="time">02:33</span>
+                                    </div>
+                                    <!-- 电影主题 -->
+                                    <div class="itemTheme">
+                                        <h3 class="wordwrap"><a href="">冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界冰雪奇缘2 唯美世界</a></h3>
+                                        <p>艾莎安娜探秘魔法王国</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+
+                </div>
+    </div>
+    <!-- 电影 icon 更多 圆span 图片高不同-->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3"><i class="iconfont icon-diqiu"></i><span> 电影</span> <strong>更多></strong></div>
+                <div class="title-middle">
+                    <span class="select skyblue">主播陪看</span>
+                </div>
+
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying2.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying3.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying4.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying5.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying3.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying4.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying2.jpg" alt=""></a>
+                        <!-- 时长 -->
+                        <span class="time">02:33</span>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">杰力豆 潮酷豆子暖心治愈杰力豆潮酷豆子暖心治愈</a></h3>
+                        <p>今天 04:25</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 最外层盒子 9个系列 -->
+    <div id="item">
+        <!-- 中部盒子 固定宽 溢出隐藏-->
+        <div class="ykitem">
+            <!-- 标题盒子 -->
+            <div class="title">
+                <div class="h3">侠影江湖，刀剑如梦</div>
+            </div>
+            <!-- 需要用来移动的盒子 流式均匀布局-->
+            <div class="ykmove">
+                <!-- 单个内容 -->
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="type">HDR</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">高清经典</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="type">HDR</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">高清经典</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="type">HDR</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="type">HDR</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="type">HDR</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+                <div class="yk_single_item">
+                    <!-- 图片 -->
+                    <div class="itemImg">
+                        <a href=""><img src="./img/dianying1.jpg" alt=""></a>
+                        <!-- 评分 -->
+                        <span class="pride">9.3</span>
+                        <!-- 类型 -->
+                        <strong class="pinkcolor">高清经典</strong>
+                    </div>
+                    <!-- 电影主题 -->
+                    <div class="itemTheme">
+                        <h3><a href="">冰雪奇缘</a></h3>
+                        <p>动画影片巴拉拉</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 左右按钮 -->
+            <div class="lbtn btn" style="display: none;">
+                <</div> <div class="rbtn btn" style="display: block;">>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 主题剧场 -->
+    <div id="ztjc">
+        <div class="ztjc">
+             <!-- 标题盒子 -->
+         <div class="title">
+            <div class="h3"><span>主题剧场</span></div>
+        </div>
+        <div class="contimg">
+            <div class="allimg">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/ztjc.png" alt="">
+                <img src="./img/dianying5.jpg" alt="">
+        </div>
+        </div>
+         <!-- 左右按钮 -->
+         <div class="zlbtn btn" style="display: none;">
+            <</div> 
+            <div class="zrbtn btn" style="display: block;">>
+        </div>
+    </div>
+
+    </div></div>
+     <!-- 脚部 -->
+     <div id="ykfooter">
+         <p>
+             <img src="./img/footer.png" alt="">我是有底线哒!
+         </p>
+        <footer>
+               <dl>
+                    <div>
+                        <dt>优酷热门</dt>
+                        <div>
+                           <dd>
+                               <a href="">剧集</a>
+                               <a href="">电影</a>
+                               <a href="">综艺</a>
+                               <a href="">音乐</a>
+                               <a href="">少儿</a>
+                               <a href="">资讯</a>
+                               <a href="">记录</a>
+                               <a href="">公益</a>
+                           </dd>
+                           <dd>
+                               <a href="">体育</a>
+                               <a href="">电影</a>
+                               <a href="">综艺</a>
+                               <a href="">音乐</a>
+                               <a href="">少儿</a>
+                               <a href="">资讯</a>
+                               <a href="">记录</a>
+                               <a href="">搞笑</a>
+                           </dd>
+                           <dd>
+                               <a href="">旅游</a>
+                               <a href="">电影</a>
+                               <a href="">综艺</a>
+                               <a href="">音乐</a>
+                               <a href="">少儿</a>
+                               <a href="">资讯</a>
+                               <a href="">记录</a>
+                               <a href="">片库</a>
+                           </dd>
+                        </div>
+                    </div>
+                   
+                      <div class="ykcenter">
+                        <dt>用户协议</dt>
+                        <div>
+                        <dd>
+                             <a href="">用户协议</a>
+                             <a href="">历史协议文本</a>
+                         </dd>
+                         <dd>
+                             <a href="">知识产权文本</a>
+                             <a href="">隐私政策</a>
+                         </dd>
+                         <dd>
+                             <a href="">账号注销协议</a>
+                             <a href="">反盗链声明</a>
+                         </dd>
+                        </div>
+                      </div>
+                   
+                      <div>
+                        <dt>服务</dt>
+                        <div>  
+                        <dd>
+                            <a href="">侵权投诉</a>
+                            <a href="">广告服务</a>
+                            <a href="">开通大鱼号</a>
+                        </dd>
+                        <dd>
+                            <a href="">在线反馈</a>
+                            <a href="">联系我们</a>
+                        </dd>
+                        <dd> 
+                            <a href="">关于我们</a>
+                            <a href="">繁体字</a>
+                        </dd>
+                        </div>
+                      </div>
+               </dl>
+            <div>
+                <div>
+                    <span>网络文化经营许可证京网文[2014]0934-236号</span>
+                    <span>网络出版服务许可证</span>
+                    <span>出版物经营许可证</span>
+                    <span>信息网络传播视听节目许可证0108283号</span>
+                    <span>药品服务许可证(京)-经营-2015-0029</span>
+                    <span>节目制作经营许可证京字670号</span>
+                    <span class="border">营业执照</span>
+                </div>
+                <div>
+                    <span>京ICP证060288号</span>
+                    <span>京ICP备06050721号</span>
+                    <span>网络110报警服务</span>
+                    <span>北京互联网举报中心</span>
+                    <span>北京12318文化市场举报热线</span>
+                    <span class="border">违法不良信息举报：电话4008100580、邮箱youkujubao@service.alibaba.com</span>
+                </div>
+                <div style="font-size: 1.2rem;">Copyright©2019 优酷 youku.com 版权所有</div>
+                <div>
+                    <span>经营性网站>备案信息</span>
+                    <span>中国互联网举报中心</span>
+                    <span>网络举报APP下载</span>
+                    <span>京公网安备11000002000017</span>
+                    <span>网络文化经营单位</span>
+                    <span class="border">暴恐音视频举报专区</span>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+    <!-- 客服、回到顶部 -->
+    <div class="gotop">
+<div>
+    <i class="iconfont icon-kefu"></i>
+</div>
+<div style="display: none;" class="back">
+    <i class="iconfont icon-arrow"></i>
+</div>
+    </div>
+<script src="./js/yk.js"></script>
+<script src="./js/jquery-3.0.0.js"></script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+
+<body>
+    <div id="login">
+        <!-- 关闭 -->
+        <div class="close"><i class="iconfont icon-diqiu"></i></div>
+        <!-- 二维码 -->
+        <div class="code"><img src="./img/haibao3.jpg" alt=""></div>
+           <form  method="POST" action="./yk.html">
+            <div class="nav">
+                <h4>账号登录</h4>
+                <small>短信验证码登录<em>></em></small>
+            </div>
+            <div class="content">
+                <input type="text" placeholder="手机/邮箱/优酷土豆账号" class="usercount">
+                <input type="password" placeholder="登录密码" class="userpassword">
+                <span class="isshow"><i class="iconfont icon-ad"></i></span>
+                <span style="display: none;" class="isshow"><i class="iconfont icon-xin"></i></span>
+                <p class="left"><input type="checkbox" class="remeber"><small>记住我</small></p>
+                <p class="right">
+                    <a href="">忘记密码</a><a href="">帮助</a>
+                </p>
+                <div class="btn">
+                    <button>登录</button>
+                    <div class="detail">
+                        点击登录完成账号注册表示您已阅读并同意优酷<a href="">《用户协议》</a>和<a href="">《隐私政策》</a>
+                    </div>
+                </div>
+                <div class="otherlogin">
+                    <div class="left">
+                        <span>其他方式</span>
+                        <div class="logo">
+                            <i class="iconfont icon-ad"></i>
+                            <i class="iconfont icon-ad"></i>
+                            <i class="iconfont icon-ad"></i>
+                            <i class="iconfont icon-ad"></i>
+                            <i class="iconfont icon-ad"></i>
+                        </div>
+                    </div>
+                    <span class="right"><a href="">注册</a></span>
+                </div>
+            </div>
+           </form>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

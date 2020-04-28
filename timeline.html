@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>timeline</title>
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <style>
+            .timeline {
+            width: 320px;
+            border: solid 1px pink;
+            margin: 0 20px;
+        }
+
+        dl {
+            background-color: #a3a0a0;
+            padding: 5px;
+        }
+
+        dl>dt {
+            box-sizing: border-box;
+            margin-bottom: 0px;
+        }
+
+        dl>dt>em {
+            font-style: normal;
+            color: blue;
+        }
+
+        dt>em::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            vertical-align: middle;
+            margin: 0 12px 0 -18px;
+            border-radius: 50%;
+            background-color: blue;
+            outline: solid 2px #a3a0a0;
+        }
+
+        dl>dd>i {
+            font-size: 6px !important;
+            margin-right: 5px;
+        }
+        dd {
+            margin-bottom: -2px;
+        }
+        dd>a {
+            display: inline-block;
+            width: 70%;
+            height: 20.8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+        }
+
+        small {
+            float: right;
+            height: 20.8px;
+            line-height: 26px;
+            font-size: 10px;
+        }
+        dd::before {
+            content: "";
+            padding-left: 15px;
+            border-left: 2px rgba(255, 255, 255, 0.6) solid;
+            margin: 0 0 0 -40px;
+        }
+        dt::before {
+            content: "";
+            padding-left: 15px;
+            border-left: 2px rgba(255, 255, 255, 0.6) solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <dl>
+            <dt><em>昨天</em> </dt>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i> <a>封神榜</a><small>观看了80%</small></dd>
+            <dt><em>今天</em></dt>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i> <a>封神榜</a><small>观看了80%</small></dd>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i> <a>封神榜</a><small>观看了80%</small></dd>
+            <dt><em>今天</em> </dt>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+            <dd><i class="iconfont icon-ad"></i><a>巴拉拉能力五卡拉卡小魔仙全身变</a><small>观看不足1%</small></dd>
+        </dl>
+    </div>
+
+</body>
+</html>

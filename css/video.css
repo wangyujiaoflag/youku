@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.ck,.chosecolor {
+    color: blue !important;
+}
+/* 内容 */
+#vshow {
+    width: 100%;
+    height: 250rem;
+    background-color: #000;
+}
+#item {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.video,.comment {
+    width: 123rem;
+    margin: auto;
+}
+.video {
+    width: 123rem;
+    height: 40rem;
+    margin-bottom: 2rem;
+    background-color: pink;
+}
+.outer {
+    width: 123rem;
+    margin: auto;
+}
+.comment {
+    width: 123rem;
+    overflow: hidden;
+}
+.left {
+    width: 19.5rem;
+    float: left;
+}
+.left>.leftarea {
+    width: 19.5rem;
+    border-radius: 0.6rem;
+    border: solid 0.1rem #fff;
+}
+.left>.leftarea>ul {
+    width: 19.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.left>.leftarea>ul>li {
+    height: 5.7rem;
+    line-height: 5.7rem;
+}
+.left>.leftarea>ul>li>div {
+    height: 100%;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.left>.leftarea>ul>li>div>i {
+    font-size: 2rem;
+    display: inline-block;
+    width: 4rem;
+    height: 100%;
+    vertical-align: middle;
+    -webkit-backface-visibility: hidden;
+}
+.left>.leftarea>ul>li>div>span {
+    display: inline-block;
+    width: 8rem;
+    height: 100%;
+    vertical-align: middle;
+    text-align: left;
+    -webkit-backface-visibility: hidden;
+}
+.right {
+    width: 102.3rem;
+    float:right;
+    background-color: #000;
+    border: solid 0.1rem yellow;
+    position: relative;
+}
+
+/* 按钮 */
+.ykitem {
+    position: relative;
+}
+.ykitem>.btn {
+    position: absolute;
+    margin-top: -2rem;
+    top: 50%;
+    width: 2.5rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+    background-color: #aaaaaa;
+}
+.ykitem>.btn:hover,
+.title>.title-middle>a:hover,
+.sort>ul>li>a:hover,
+.search-input>span:hover,
+.nav_right>ul>li>a>div:hover,
+.sys_nav_item>ul>li>div>a:hover {
+    cursor: pointer;
+    color: rgb(51, 104, 218);
+}
+.nav_right>ul>li>a>div.notchange:hover{
+    color: orange;
+}
+
+.ykitem>.lbtn {
+    left: 0;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.ykitem>.rbtn {
+    right: 0;
+    border-radius: 2rem 0 0 2rem;
+}
+.title{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+.title>.h3 {
+    float: left;
+    width: auto;
+    height: 4rem;
+    line-height: 4rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+    vertical-align: top;
+}
+.ykmove {
+    width: 165.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 图片 */
+.yk_single_item {
+    width: 19.4rem;
+    margin-top: 1rem;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.yk_single_item>.itemImg {
+    width: 19.4rem;
+    position: relative;
+}
+
+.yk_single_item>.itemImg>span.pride {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.4rem;
+    color: orangered;
+}
+.yk_single_item>.itemImg>span.time {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.yk_single_item>.itemImg>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: solid 1px transparent;
+}
+
+.yk_single_item>.itemImg>a>img {
+    width: 19.4rem;
+}
+.h3>span {
+    font-size: 2rem;
+}
+.yk_single_item>.itemTheme {
+    width: 19.4rem;
+    margin-top: 0.5rem;
+}
+.yk_single_item>.itemTheme>h3>a {
+    display: block;
+    width: 19.4rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.yk_single_item>.itemTheme>p {
+    font-size: 1.4rem;
+    color: #aaaaaa;
+    margin-top: 0.5rem;
+}
+
+
+

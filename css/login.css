@@ -1,0 +1,178 @@
+#login {
+    width: 800px;
+    height: 420px;
+    background-image: url("../img/dianying5.jpg");
+    background-repeat: repeat-x;
+    margin: auto;
+    position: relative;
+}
+/* 关闭页面 */
+.close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+.close>i {
+    font-size: 20px !important;
+}
+/* 二维码 */
+.code {
+    position: absolute;
+    top: -24px;
+    right: -34px;
+    width: 30px;
+    height: 30px;
+    border-bottom: 30px solid #fff;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(45deg);
+}
+.code>img {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-45deg);
+}
+/* 表单 */
+form{
+    width: 315px;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    margin: auto;
+    text-align: center;
+}
+/* otherimg */
+.img {
+    width: 250px;
+    height: 250px;
+}
+/* 导航栏 */
+.nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding:5px 20px;
+    box-sizing: border-box;
+}
+.nav>h4 {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav>small {
+    float: right;
+    font-size: 12px;
+}
+.nav>small>em {
+    font-style: normal;
+    color: rgb(70, 202, 255);
+}
+.content {
+    padding: 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input {
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #333 !important;
+    margin-top: 20px;
+}
+.content>span {
+    position: absolute;
+    right: 20px;
+    top: 136px;
+}
+.content>p {
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: left;
+}
+.content>p.right {
+    text-align: right;
+}
+/* 忘记密码 checkbox */
+.content>p>input {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 0;
+    vertical-align: middle;
+    text-align: right;
+    border: solid 1px transparent;
+}
+.content>p>a {
+    vertical-align: middle;
+    color: #000;
+}
+.content>p>a:nth-last-of-type(2)::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    vertical-align: middle;
+    margin: 0 5px;
+    background-color: #000;
+}
+/* 登录按钮 */
+.btn {
+    width: 100%;
+}
+.btn>button {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(87, 195, 238) , rgb(12, 187, 240));
+}
+.btn>.detail {
+    text-align: center;
+    font-size: 10px;
+    color: #333;
+    margin-top: 5px;
+}
+.btn>.detail>a {
+    color: rgb(8, 175, 241);
+}
+/* 其他方式 底部内容 */
+.otherlogin {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0 15px 0;
+    text-align: left;
+}
+.otherlogin>.left {
+    width:85%;
+    height: 100%;
+    float: left;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+.otherlogin>.left>.logo {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+.otherlogin>.right {
+    float: right;
+}
